@@ -1,0 +1,96 @@
+/* Styling untuk elemen dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccf08a; /* Biru muda */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: url(./pemandangan\ alam\ indonesia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    background-color: #f3faf3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Transparansi hanya untuk background */
+.transparan-bg {
+    background-color: rgba(76, 175, 80, 0.5); /* warna hijau dengan transparansi 50% */
+    color: white;
+    padding: 20px;
+}
+
+
+/* Navigasi */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(193, 224, 81);
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #6df383;
+    color: black;
+}
+
+/* Section */
+section {
+    padding: 20px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #31c0c0;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: rgb(95, 226, 117);
+}
+
+td {
+    text-align: left;
+}
+
+/* Gambar */
+img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
